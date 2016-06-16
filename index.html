@@ -72,17 +72,37 @@
   </head>
   <body>
    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="selected">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">サンプル株式会社</a>
+          </div>
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">会社情報</a></li>
+              <li><a href="#">事業情報</a></li>
+              <li><a href="#">ニュース</a></li>
+              <li class="active"><a href="#">お問い合わせ</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                  採用情報
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">新卒採用</a></li>
+                  <li><a href="#">キャリア採用</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-      <div id="logo">
-        <img src="profile.jpg" alt="" />
-        <h1>佐藤航平</h1>
-      </div>
     </header>
     <div class="container">
       <section>
@@ -97,6 +117,31 @@
           <li><a href="https://twitter.com/tarokirameki" target="_blank">Twitter</a></li>
         </ul>
       </section>
+　　<section id="post">
+　　　<ul class="pofile-thumbnail">
+　　　　<li><a href="#profile1" style="border-color:#dc3c3e;"><img src="Gopro1.png" width="100"></a></li>
+　　　</ul>
+　　　<div id="profile1" class="profile-field">
+　　　<div class="profile-photo" style="border-color:#dc3c3e;">
+　　　　<img src="Gopro1.png" width="240">
+　　　</div>
+　　　<div class="profile-text">
+　　　<h2 class="title-profile">一ノ瀬みか</h2>
+　　　<p><b>みかちんワールド全開中！</b><br/>
+　　　最年少でセンターの不思議ちゃん。<br/>
+　　　講談社「ミスiD2016」。<br/>
+　　　<br/>
+　　　ニックネーム：みかちん<br/>
+　　　担当カラー：赤<br/>
+　　　誕生日：2000年4月12日<br/>
+　　　身長：161cm<br/>
+　　　趣味：絵を描くこと、ベース<br/>
+　　　資格：漢検三級<br/>
+　　　好き：メロンパン、お菓子、ぬいぐるみ、キティ、ank rouge、エヴァ、カルピス、ふわふわもこもこ</p>
+　　　<p>Twitterアカウント: <a href="https://twitter.com/MIKA_KMYD">@MIKA_KMYD</a></p>
+　　　</div>
+　　　</div>
+　　</section>
       <footer>
         <p>&copy; 2015 Kohei Sato.</p>
       </footer>
